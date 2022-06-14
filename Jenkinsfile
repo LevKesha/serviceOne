@@ -5,12 +5,4 @@ pipeline {
         steps {
         sh 'docker ps'}
         }
-        stage('two'){
-        steps {
-        }
-        }
-        stage('three'){
-        steps {
-        }
-    }
 }}
